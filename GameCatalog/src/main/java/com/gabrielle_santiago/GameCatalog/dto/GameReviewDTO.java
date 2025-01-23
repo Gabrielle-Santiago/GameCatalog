@@ -2,9 +2,6 @@ package com.gabrielle_santiago.GameCatalog.dto;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
-import java.util.List;
-
-import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class GameReviewDTO {
 
@@ -13,9 +10,6 @@ public class GameReviewDTO {
     private String url;
     private String firstReleaseDate;
     private Double topCriticScore;
-
-    @JsonProperty("Platforms")
-    private List<PlatformDTO> platforms;
     
     public Long getId() {
         return id;

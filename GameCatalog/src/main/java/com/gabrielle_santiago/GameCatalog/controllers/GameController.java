@@ -12,11 +12,13 @@ import com.gabrielle_santiago.GameCatalog.services.GameSevice;
 @RestController
 public class GameController {
 
-    private final GameSevice gameService;
+    private GameSevice gameService;
+    
 
     public GameController(GameSevice gameSevice) {
         this.gameService = gameSevice;
     }
+
 
     @GetMapping("/game")
     public List<GameReviewDTO> getGameReviews(
