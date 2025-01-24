@@ -16,6 +16,8 @@ public class GameIdDTO {
     private String description;
     private GameImagesDTO images;
 
+    @JsonProperty("Genres")
+    private List<GenreDTO> genre;
     @JsonProperty("Platforms")
     private List<PlatformDTO> platforms;
 
@@ -75,6 +77,12 @@ public class GameIdDTO {
     }
     public void setImages(GameImagesDTO images) {
         this.images = images;
+    }
+    public List<GenreDTO> getGenre() {
+        return genre;
+    }
+    public void setGenre(List<GenreDTO> genre) {
+        this.genre = genre;
     }
     public List<PlatformDTO> getPlatforms() {
         return platforms;

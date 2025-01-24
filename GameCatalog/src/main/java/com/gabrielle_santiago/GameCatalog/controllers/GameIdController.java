@@ -13,7 +13,7 @@ public class GameIdController {
 
     private GameIdService gameIdService;
 
-   public GameIdController(GameIdService gameIdService) {
+    public GameIdController(GameIdService gameIdService) {
         this.gameIdService = gameIdService;
     }
 
