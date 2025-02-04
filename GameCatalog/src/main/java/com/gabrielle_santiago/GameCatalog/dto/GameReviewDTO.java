@@ -10,7 +10,14 @@ public class GameReviewDTO {
     private String url;
     private String firstReleaseDate;
     private Double topCriticScore;
+    private GameImagesDTO images;
     
+    public GameImagesDTO getImages() {
+        return images;
+    }
+    public void setImages(GameImagesDTO images) {
+        this.images = images;
+    }
     public Long getId() {
         return id;
     }
