@@ -99,3 +99,13 @@ GameCatalog é o backend responsável pelo consumo da API externa **OpenCritic**
 ## **Banco de dados**
 <p>Abaixo possui uma imagem de como o banco de dados deveria ser organizado, utilizado como meio visual para melhor incrementação das funcionalidades do projeto.</p>
 <p>![gamesDB](https://github.com/user-attachments/assets/e99228b9-c01e-4d2e-a51a-cc8a06d5123f)</p>
+
+## **Documentação do OpenCritic**
+<p>(https://rapidapi.com/opencritic-opencritic-default/api/opencritic-api)</p>
+
+## Vídeo Demonstrativo
+
+
+https://github.com/user-attachments/assets/24b5dbd9-e210-47a4-9ad3-501374a48706
+
+
